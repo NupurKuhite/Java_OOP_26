@@ -32,7 +32,7 @@ class PracticalNo4
         } 
         else
         {
-            System.err.println("Error")
+            System.err.println("Error");
         }
     }
 }
