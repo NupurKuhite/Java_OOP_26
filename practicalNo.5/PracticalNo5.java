@@ -36,7 +36,6 @@ class AIML extends Emerging_Technologie
         this.cr = "Sarayu";
     }
 
-    @Override
     public void forum() 
     {
         System.out.println("AIML: ");
@@ -56,7 +55,7 @@ class AIDS extends Emerging_Technologie
         this.crn = "Mayank";
     }
 
-    @Override
+
     public void forum() 
     {
         System.out.println("AIDS: ");
