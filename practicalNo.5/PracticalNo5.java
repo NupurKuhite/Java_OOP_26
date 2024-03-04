@@ -72,7 +72,7 @@ public class PracticalNo5
         AIDS aidsTech = new AIDS("Nupur Kuhite", "Himanshu Talekar");
         
         System.out.println();
-        System.out.println("Emerging Techonologies: ");
+        System.out.println("Emerging Technologies: ");
         Emerging_Technologie EM = new Emerging_Technologie("Himanshi","Himanshu");
         EM.forum();
 
