@@ -22,6 +22,7 @@ public class Solution {
             int result = x/y;
             System.out.println("x = "+x+", y = "+y); 
             System.out.println("Answer of "+ x+" / "+y+" = "+result);
+            System.out.println();
         }
         catch(ArithmeticException e){
             System.out.println("Exception occure: "+e.getMessage());
@@ -36,6 +37,7 @@ public class Solution {
         else {  
             System.out.println("Welcome to Vote!!");  
         }  
+        System.out.println();
     }
     public static void main(String[] argv)
     {
@@ -43,19 +45,15 @@ public class Solution {
         
         System.out.println("1]");
         obj.division(12, 2);
-        System.out.println();
         
         System.out.println("2]");
         obj.division(12, 0);
-        System.out.println();
         
         System.out.print("3] ");
         obj.validate(19);
-        System.out.println();
 
         System.out.print("4] ");
         obj.validate(15);
-        System.out.println();
     }
 
 }
